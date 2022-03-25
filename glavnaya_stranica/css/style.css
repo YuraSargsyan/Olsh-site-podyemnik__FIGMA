@@ -1,0 +1,347 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body li {
+  list-style: none;
+}
+
+body .main-container .header-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 80px;
+  max-width: 1760px;
+}
+
+body .main-container .header-container .header-logo {
+  width: 264px;
+}
+
+body .main-container .header-container .header-logo > img {
+  width: 100%;
+  height: 54px;
+}
+
+body .main-container .header-container .header-logo > p {
+  font-size: 12px;
+  text-align: center;
+}
+
+body .main-container .header-container .header-geolocation {
+  max-width: 398px;
+  height: 49px;
+  font-size: 18px;
+  line-height: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .main-container .header-container .header-geolocation > i {
+  display: inline-block;
+  font-size: 24px;
+  width: 20px;
+  height: 24px;
+  margin: 10px;
+}
+
+body .main-container .header-container .header-date {
+  max-width: 167px;
+  height: 49px;
+  font-size: 18px;
+  line-height: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .main-container .header-container .header-date > i {
+  display: inline-block;
+  font-size: 24px;
+  width: 20px;
+  height: 24px;
+  margin: 10px;
+}
+
+body .main-container .header-container .header-phone-number {
+  max-width: 195px;
+  height: 49px;
+  font-size: 18px;
+  line-height: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .main-container .header-container .header-phone-number > i {
+  display: inline-block;
+  font-size: 24px;
+  width: 20px;
+  height: 24px;
+  margin: 10px;
+}
+
+body .main-container .header-container .header-icons i {
+  display: inline-block;
+  font-size: 24px;
+  width: 20px;
+  height: 24px;
+  margin: 10px;
+}
+
+body .main-container .navbar-container {
+  background-color: #f2f2f2;
+  padding: 0 80px;
+}
+
+body .main-container .navbar-container .navbar-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1760px;
+  height: 102px;
+}
+
+body .main-container .navbar-container .navbar-block a {
+  text-decoration: none;
+  color: #232323;
+}
+
+body .main-container .navbar-container .navbar-block > ul {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .main-container .navbar-container .navbar-block > ul li {
+  font-size: 18px;
+  margin-right: 74px;
+  color: #232323;
+  font-weight: 900;
+}
+
+body .main-container .navbar-container .navbar-block .navbar-pickUpLift {
+  width: 304px;
+  height: 64px;
+  background-color: #333333;
+  color: #fff;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+body .main-container .navbar-container .navbar-block .navbar-discount {
+  width: 92px;
+  height: 52px;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+  background: #FFAE34;
+}
+
+body .main-container .sale-section {
+  position: relative;
+}
+
+body .main-container .sale-section .sale-discount-info {
+  z-index: 1;
+  max-width: 962px;
+  height: 630px;
+  background-image: url("/glavnaya_stranica/images/Rectangle 259.png");
+}
+
+body .main-container .sale-section .sale-discount-info > div {
+  margin-left: 80px;
+  padding-top: 140px;
+}
+
+body .main-container .sale-section .sale-discount-info > div > h2 {
+  max-width: 749px;
+  height: 110px;
+  font-size: 42px;
+  text-transform: uppercase;
+}
+
+body .main-container .sale-section .sale-discount-info > div > h3 {
+  max-width: 690px;
+  height: 91px;
+  font-size: 24px;
+  margin: 24px 0 49px 0;
+}
+
+body .main-container .sale-section .sale-discount-info > div > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .main-container .sale-section .sale-discount-info > div > div .sale-pickUpLift {
+  width: 410px;
+  height: 85px;
+  background-color: #333333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  border-radius: 4px 0 0 4px;
+}
+
+body .main-container .sale-section .sale-discount-info > div > div .sale-discount {
+  width: 152px;
+  height: 85px;
+  border: none;
+  cursor: help;
+  font-size: 24px;
+  border-radius: 0 4px 4px 0;
+}
+
+body .main-container .sale-section .sale-discount-info > div > p {
+  width: 499px;
+  height: 52px;
+  font-size: 18px;
+  margin-top: 51px;
+}
+
+body .main-container .sale-section .sale-image {
+  position: absolute;
+  background-image: url("/glavnaya_stranica/images/girl.png");
+  width: 100%;
+  height: 630px;
+  right: 0;
+  top: 0;
+  overflow: hidden;
+  z-index: -1;
+}
+
+body .main-container .sale-section .company-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px 80px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 148px;
+}
+
+body .main-container .sale-section .company-info div {
+  display: inherit;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .main-container .sale-section .company-info div b {
+  font-size: 78px;
+}
+
+body .main-container .sale-section .company-info div p {
+  font-size: 24px;
+  margin: 0 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+body .main-container .price-list-section {
+  background-color: #F2F2F2;
+}
+
+body .main-container .price-list-section .price-list-contains {
+  max-width: 1760px;
+  margin: 0 80px;
+}
+
+body .main-container .price-list-section .price-list-contains .price-list-title {
+  width: 709px;
+  height: 86px;
+  padding: 56px 0 46px 0;
+}
+
+body .main-container .price-list-section .price-list-contains .price-list-title > h2 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+body .main-container .price-list-section .price-list-contains .price-list-items {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  gap: 60px;
+}
+
+body .main-container .price-list-section .price-list-contains .price-list-items > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 32px;
+}
+
+body .main-container .price-list-section .price-list-contains .price-list-items > div > .icon {
+  min-width: 88px;
+  max-width: 88px;
+  height: 88px;
+  background-color: #FFAE34;
+}
+
+body .main-container .price-list-section .price-list-contains .price-list-items > div div {
+  max-width: 290px;
+  display: inherit;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 12px;
+}
+
+body .main-container .price-list-section .price-list-contains .price-list-items > div div h3 {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+body .main-container .price-list-section .price-list-contains .price-list-items > div div p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+body .main-container .price-list-section .price-list-contains .price-list-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 100px 0 64px 0;
+}
+
+body .main-container .price-list-section .price-list-contains .price-list-btn > button {
+  border: none;
+  font-weight: 700;
+  font-size: 24px;
+  width: 560px;
+  height: 85px;
+  border-radius: 4px;
+  background-color: #C4C4C4;
+}
+/*# sourceMappingURL=style.css.map */
